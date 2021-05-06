@@ -1,0 +1,10 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: PD1DanielAriel
+  buildpack: liberty-for-java
+  path: ./target/WatsonAssistantChat-0.0.1.war
+  memory: 256M
+  domain: mybluemix.net
+  host: PD1DanielAriel
